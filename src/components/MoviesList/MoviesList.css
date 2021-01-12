@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.movies-list {
+  display: grid;
+  grid-template-columns: 454px 454px;
+  column-gap: 36px;
+  row-gap: 32px;
+}
+
+.movie-list__item {
+  max-width: 454px;
+  max-height: 281px;
+  box-shadow: 0 0 20px -10px;
+}
