@@ -1,12 +1,12 @@
-import './Filters.css'
+import './Filters.css';
 
-import React from 'react'
+import React from 'react';
 
 const Filters = () => (
-    <ul>
-      <li>Search</li>
-      <li>Rated</li>
-    </ul>
-  )
+  <ul>
+    <li>Search</li>
+    <li>Rated</li>
+  </ul>
+);
 
-  export default Filters
+export default Filters;
